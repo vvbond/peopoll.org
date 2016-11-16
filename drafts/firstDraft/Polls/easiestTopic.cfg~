@@ -1,0 +1,14 @@
+{
+"Name":"easiestTopic",
+"N":"7",
+"Question":"Which topic was the easiest?",
+"Answers":[
+	    "Collable/Putable bonds",
+	    "Pricing options on bonds",
+	    "Constructing (self financing) replicating portfolios"
+	    "Caps/Floors"
+	    "Swaps/Swaptions"
+	    "Pricing bonds with credit risk"
+	    "CDS pricing"
+	  ]
+}

@@ -1,0 +1,3 @@
+Test servers:
+Mancester: 130.88.70.244
+Konstanz: 134.34.70.162

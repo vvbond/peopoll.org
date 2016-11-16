@@ -1,0 +1,124 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, 
+kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, 
+ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, details, figcaption, 
+figure, footer, header, hgroup, menu, nav, section, summary, time, 
+mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; 
+}
+
+body {
+  font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
+}
+
+#subj {
+    text-align: center;
+    font-size: 3em;
+    margin: 1em;
+}
+/* The top menu.  */
+#topMenu {
+    background: #050405;
+    border-bottom:1px solid #441d22;
+    position: relative;
+    zoom: 1;
+}
+/* Clearfix to stop our floats escaping. */
+#topMenu:before, #topMenu:after {content:"\0020"; display:block; height:0; clear:both; overflow: hidden;}
+#topMenu:after { clear:both; }
+/* The menu buttons. */
+#topMenu li {
+    display: inline;
+    float: left;
+    width: 33.333%;
+}
+#topMenu a {
+    color: #cdcdcd;
+    display:block;
+    font-size: 1.875em;
+    font-weight: bold;
+    height: 2.583em;
+    margin: 0 0.833em;
+    overflow: hidden;
+    padding-top:0.428em;
+    position:relative;
+    text-align:center;
+    text-decoration:none;
+}
+.topMenu-currentPoll #topMenu-currentPoll a {
+    background: #d5d2d2;
+    color: #111111;
+}
+.topMenu-polls #topMenu-polls a {
+    background: #d5d2d2;
+    color: #111111;
+}
+.topMenu-viewPoll #topMenu-viewPoll a {
+    background: #d5d2d2;
+    color: #111111;
+}
+
+/* Poll answers. */
+.table-view {
+    background: white; 
+    list-style-type: none;
+}
+
+.table-view li {
+    background: #7c0c18; 
+    border-top: 2px #8c2a34 solid;
+    border-bottom: 2px #640913 solid; 
+    margin: .0em .0em;
+}
+
+.table-view .even {
+    background: #830f1b;
+}
+
+.table-action li {
+    position: relative; 
+}
+      
+.table-action a {
+  /* color: #d6b69e; */
+    color: white;
+    display: block;
+    /* padding: 0.5em 0.785em 0.714em; */
+    position: relative;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 1px;
+}
+
+.table-action h2 {
+    color: white;
+    font-size: 4.285em; /* 18px / 14px */
+    text-align: center;
+    padding: 0.5em 0.785em 0.714em;
+}
+
+label {
+    font-size: 4em;
+    margin-left: 1em;
+}
+input {
+    font-size: 3em;
+    font-weight: bold;
+    display: block;
+    margin-left: 1em;
+}
+input#createBtn {
+    margin-left: 1em;
+    height: 2em;
+}
+/* .chart{ */
+/*     margin-left:auto; */
+/*     margin-right:auto; */
+/*     width:70%; */
+/* } */

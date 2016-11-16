@@ -1,0 +1,13 @@
+{
+    "name": "Currency market", 
+    "active": "0",
+    "dtexpire": "2014-07-02 23:59",
+    "questions":
+	[ 
+	    {
+	     "qtxt": "On June 10/2010 Euro was trading low, but not as low as many experts estimated. One of the reasons was a currency market intervention of a central bank of:", 
+	     "qtype": "single",
+	     "answers": ["China", "France", "Germany", "Japan", "Singapore", "Switzerland", "UK", "USA"]
+	    }
+	]
+}

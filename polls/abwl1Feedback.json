@@ -1,0 +1,36 @@
+{
+    "name": "ABWL1 Feedback", 
+    "active": "0",
+    "dtexpire": "2014-07-03 23:59",
+    "questions":
+	[ 
+	    {
+	     "qtxt": "Which topic was the easiest?", 
+	     "qtype": "single",
+	     "answers": ["Sources of the NPV", 
+			 "Market Efficiency", 
+			 "Options and Management Flexibility", 
+			 "Bond Valuation", 
+			 "International Finance", 
+			 "Mergers and Aquisitions"]
+	    },
+	    {
+	     "qtxt": "Which topic was the most difficult?", 
+	     "qtype": "single",
+	     "answers": ["Sources of the NPV", 
+			 "Market Efficiency", 
+			 "Options and Management Flexibility", 
+			 "Bond Valuation", 
+			 "International Finance", 
+			 "Mergers and Aquisitions"]
+	    },
+	    {
+	     "qtxt": "The overall impression of the course:", 
+	     "qtype": "single",
+	     "answers": ["Excellent", 
+			 "Interesting but challenging", 
+ 			 "So-so", 
+			 "Terrible"]
+	    }
+	]
+}
